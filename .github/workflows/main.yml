@@ -29,4 +29,4 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: deploying using surge
-      run: surge ./ bootcamp-noman-assignment.surge.sh --token "9ade0396a624e3f1d7666ca493189280"
+      run: surge ./ bootcamp-noman-assignment.surge.sh --token $ {{ secrets.TOKEN }}
